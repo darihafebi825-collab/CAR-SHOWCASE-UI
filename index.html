@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>McLaren Supercar UI</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="overlay" id="overlay"></div>
+<div class="bg-gradient" id="bgGradient"></div>
+<div class="bg-noise"></div>
+
+<div class="shell">
+  <header>
+    <div class="logo">WOLLEY<span>DER</span></div>
+    <nav>
+      <a href="#">Wolleyder – Drive Beyond Limits.</a>
+    </nav>
+  </header>
+
+  <div class="stage">
+    <div class="info">
+      <div class="car-badge" id="badge">Supercar Series</div>
+
+      <div class="car-name">
+        <span class="line" id="nameLine1">MC</span>
+        <span class="line" id="nameLine2">LAREN</span>
+        <span class="line" id="nameLine3" style="font-size:0.45em; letter-spacing:0.15em; color: var(--primary); transition: color var(--transition);">GT5</span>
+      </div>
+
+      <p class="car-desc" id="carDesc"></p>
+
+      <div class="stats" id="statsRow">
+        <div class="stat">
+          <div class="stat-val" id="s1"></div>
+          <div class="stat-label">0–100 km/h</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val" id="s2"></div>
+          <div class="stat-label">Top Speed mph</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val" id="s3"></div>
+          <div class="stat-label">Horsepower</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="car-stage">
+      <div class="circle-deco c3"></div>
+      <div class="circle-deco c2"></div>
+      <div class="circle-deco c1"></div>
+      <div class="car-platform" id="platform"></div>
+      <div class="speed-line" id="speedLine"></div>
+
+      <div class="price-tag">
+        <div class="price-label">Starting at</div>
+        <div class="price-val" id="priceVal"></div>
+      </div>
+
+      <div class="car-img-wrap">
+        <img class="car-img active" id="carImg" src="car.png" alt="Car">
+      </div>
+    </div>
+  </div>
+
+  <div class="selector">
+    <button class="nav-arrow" id="prevBtn">&#8592;</button>
+    <div class="sel-track" id="selTrack"></div>
+    <button class="nav-arrow" id="nextBtn">&#8594;</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
