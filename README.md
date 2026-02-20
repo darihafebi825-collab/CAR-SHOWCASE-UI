@@ -12,7 +12,7 @@
 
 ## 🖥️ Live Demo
 
-> 🔗 [View Live](https://darihafebi825-collab.github.io/CAR-SHOWCASE-UI/) *(Replace with your deployment link)*
+> 🔗 [View Live](https://darihafebi825-collab.github.io/CAR-SHOWCASE-UI/) 
 
 ---
 
